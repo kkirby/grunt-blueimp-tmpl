@@ -26,7 +26,7 @@ grunt.initConfig({
 				},
                 // Override loading pattern.
                 load: function(file,oldLoader){
-                    if(file.substr(0,6) === 'sys://){
+                    if(file.substr(0,6) === 'sys://'){
                         file = '/path/to/somewhere/' + file.substr(6);
                     }
                     return oldLoader(file);
