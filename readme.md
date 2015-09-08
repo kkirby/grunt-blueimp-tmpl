@@ -14,7 +14,7 @@ grunt.initConfig({
 			dest: 'readme.md',
 			options: {
 				data: {
-					projectTitle: 'grunt-blueimp-tmpl
+					projectTitle: 'grunt-blueimp-tmpl'
 				},
                 // Parse tags like <% %> instead of as {% %}
 				regexp: /([\s'\\])(?!(?:[^<]|<(?!%))*%>)|(?:<%(=|#)([\s\S]+?)%>)|(<%)|(%>)/g,
