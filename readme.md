@@ -1,6 +1,6 @@
 # grunt-blueimp-tmpl
 
-This grunt plugin will compile a blueimp-tmpl.
+This grunt plugin will compile [blueimp-tmpl](https://blueimp.github.io/JavaScript-Templates/) templates.
 
 ## Example
 
