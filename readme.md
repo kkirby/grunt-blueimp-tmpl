@@ -34,7 +34,8 @@ grunt.initConfig({
 			}
 		}
 	}
-});```
+});
+```
 
 ### Run
 
