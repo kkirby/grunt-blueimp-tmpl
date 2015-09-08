@@ -1,0 +1,22 @@
+{
+  "name": "grunt-blueimp-tmpl",
+  "version": "1.0.0",
+  "description": "A grunt task to compile tmpl templates.",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/kkirby/grunt-blueimp-tmpl"
+  },
+  "keywords": [
+    "blueimp",
+    "blueimp-tmpl",
+    "tmpl",
+    "gruntplugin",
+    "nodejs",
+	"config.xml"
+  ],
+  "author": "Kyle Kirbatski <kylekirby@optimalconnection.net>",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-tmpl": "^2.5.5"
+  }
+}
