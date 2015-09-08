@@ -53,6 +53,7 @@ module.exports = (function(){
 						self
 					)
 				);
+				grunt.log.writeln('File "' + file.dest + '" created.');
 			});
 		});
 	};
