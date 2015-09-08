@@ -1,6 +1,6 @@
 {
   "name": "grunt-blueimp-tmpl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A grunt task to compile tmpl templates.",
   "repository": {
 	  "type": "git",
