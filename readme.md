@@ -16,21 +16,21 @@ grunt.initConfig({
 				data: {
 					projectTitle: 'grunt-blueimp-tmpl'
 				},
-                // Parse tags like <% %> instead of as {% %}
+				// Parse tags like <% %> instead of as {% %}
 				regexp: /([\s'\\])(?!(?:[^<]|<(?!%))*%>)|(?:<%(=|#)([\s\S]+?)%>)|(<%)|(%>)/g,
 				helper: {
-                    // Add a helper function to stringify values.
+					// Add a helper function to stringify values.
 					stringify: function(val){
 						returnJSON.stringify(val,null,4);
 					}
 				},
-                // Override loading pattern.
-                load: function(file,oldLoader){
-                    if(file.substr(0,6) === 'sys://'){
-                        file = '/path/to/somewhere/' + file.substr(6);
-                    }
-                    return oldLoader(file);
-                }
+				// Override loading pattern.
+				load: function(file,oldLoader){
+					if(file.substr(0,6) === 'sys://'){
+						file = '/path/to/somewhere/' + file.substr(6);
+					}
+					return oldLoader(file);
+				}
 			}
 		}
 	}
